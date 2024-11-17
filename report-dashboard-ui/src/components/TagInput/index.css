@@ -1,0 +1,7 @@
+
+.tag-input-div {
+        display: flex;  
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 8px;
+      }

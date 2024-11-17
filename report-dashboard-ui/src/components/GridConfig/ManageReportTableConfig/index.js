@@ -18,7 +18,7 @@ export const defaultColDef = {
  */
 export const getColumnDefs = (navigate, toggleActiveStatus, updateTags) => [
     {
-        headerName: 'Subfolder',
+        headerName: 'Folder',
         field: 'subfolder',
         sortable: true,
         filter: true,
@@ -62,7 +62,7 @@ export const getColumnDefs = (navigate, toggleActiveStatus, updateTags) => [
         filter: true,
     },
     {
-        headerName: 'Active',
+        headerName: 'Report Status',
         field: 'active',
         cellRenderer: (params) => {
             if (!params.data) return null;
@@ -98,6 +98,7 @@ export const getColumnDefs = (navigate, toggleActiveStatus, updateTags) => [
                 />
             );
         },
+        flex:2
     },
 
 ];

@@ -18,7 +18,12 @@ const TagInput = ({ tags, onUpdate }) => {
 
     return (
         <div className="tag-input">
-
+<div style={{
+    display:"flex",
+    flexWrap:"nowrap",
+    overflowX:"auto",
+    paddingBottom:"8px"
+}}>
             <TextField
                 variant="standard"
                 value={inputValue}
@@ -31,7 +36,12 @@ const TagInput = ({ tags, onUpdate }) => {
                 }}
                 placeholder="Add tag"
                 size="small"
+                style={{
+                    minWidth:"100px",
+                    flexShrink:0
+                }}
             />
+          
             {tags?.map((tag, index) => (
                 <Chip
                     key={index}
@@ -40,6 +50,7 @@ const TagInput = ({ tags, onUpdate }) => {
                     style={{ margin: '2px' }}
                 />
             ))}
+            </div>
         </div>
     );
 };

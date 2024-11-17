@@ -29,7 +29,7 @@ const ReportTable = () => {
 
     // Render the AG Grid component
     return (
-        <div className="ag-theme-alpine" style={{ height: 600, width: '100%' }}>
+        <div className="ag-theme-alpine" style={{ height: 600, width: '100%',marginTop:'10px' }}>
             <AgGridReact
                 rowData={rowData}
                 columnDefs={columnDefs}
