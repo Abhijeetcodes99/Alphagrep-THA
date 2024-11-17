@@ -22,7 +22,7 @@ A React-based dashboard for viewing and managing dynamic CSV reports with featur
 1. **Clone the Repository:**
    ```bash
    git clone <repository-url>
-   cd dynamic-report-dashboard-interface
+   cd report-dashboard-ui
    ```
 
 2. **Install Dependencies:**
