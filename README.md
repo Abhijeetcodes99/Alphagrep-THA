@@ -7,7 +7,7 @@ A React-based dashboard for viewing and managing dynamic CSV reports with featur
 ## Tech Stack
 - **Frontend**: React.js
 - **Libraries**: AG Grid, Material UI, PapaParse
-- **Folder Structure**: CSV files are located in `/folder` (e.g., `a.csv`, `b.csv`).
+- **Folder Structure**: CSV files are located in `/folder` (e.g., `a.csv`, `b.csv`) in Public folder.
 
 ## Features
 - Dynamic loading of CSV files from the `/folder` directory.
@@ -32,7 +32,7 @@ A React-based dashboard for viewing and managing dynamic CSV reports with featur
 
 3. **Run the Development Server:**
    ```bash
-   npm run dev
+   npm run start
    ```
 
 4. **Access the Application:**
