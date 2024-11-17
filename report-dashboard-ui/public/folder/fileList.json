@@ -1,0 +1,11 @@
+
+{
+  "subfolder1": [
+    { "name": "file1.csv", "createdAt": "2024-11-01", "active": true, "tags": ["finance"] },
+    { "name": "file2.csv", "createdAt": "2024-11-02", "active": true, "tags": [] }
+  ],
+  "subfolder2": [
+    { "name": "file1.csv", "createdAt": "2024-11-03", "active": true, "tags": ["stocks", "analysis"] },
+    { "name": "file3.csv", "createdAt": "2024-11-04", "active": false, "tags": [] }
+  ]
+}
